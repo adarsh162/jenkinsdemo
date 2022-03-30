@@ -1,0 +1,138 @@
+#include <cstdio>
+#include <iostream>
+using namespace std;
+int size=10;
+int n=0;
+typedef struct list_node
+{
+        int item;
+        struct list_node *next;
+}node;
+node *head=NULL;
+node *tail=NULL;
+
+int insert_at_beginning(int value1){
+    if(n<size){
+    
+        
+       node *ptr=tail;
+       next=malloc(sizeof(node));
+        node *ptr2=ptr->next;
+        ptr2->item=value1;
+        tail=ptr->next;
+            
+      if(n==0){
+        head=ptr->next;        
+            }
+        n++;
+        return 1;
+        
+    }
+   return 0;
+}
+int insert_at_end(int value1){
+    if(n<size){
+        node *ptr=head;
+        head=(node*)malloc(sizeof(node));
+        head->next=ptr;
+        head->item=value1;
+        n++;
+        return 1;
+        
+    }
+    return 0;
+}
+int delete_at_end(){
+    if(n!=0){
+        node *ptr=head;
+        head=ptr->next;
+        free (ptr);
+        n--;
+        return 1;
+    }
+    return 0;
+}
+int delete_at_begining(){
+    if(n!=0){
+        node *ptr=head;
+        int t=n;
+        while(t--){
+        ptr=ptr->next;
+        }
+        node *ptr2=tail;
+        tail=ptr;
+        
+        free (ptr2);
+        tail->next=NULL;
+        n--;
+        return 1;
+    }
+    return 0;
+}
+int display(){
+    if(n!=0){
+    node *ptr=head;
+   
+    while(ptr!=tail){
+        cout<<ptr->item<<" ";
+        ptr=ptr->next;
+    }
+        return 1;
+    }
+    return 0;
+}
+
+
+    int main() {
+    node s1;
+    int n=0;
+    do{
+    cin>>n;
+    if(n==1){
+        int x;
+        cin>>x;
+        if(!(insert_at_beginning(x)))
+        {cout<<"Stack Overflow";                
+            break;
+        }
+        
+     }
+     else if(n==2){
+         int x;
+        cin>>x;
+          if(!(insert_at_end(x)))
+          {cout<<"Stack Overflow";
+          break;
+          }
+     }
+     else if(n==3){
+           
+            if(!(delete_at_end()))
+            {cout<<"Stack undeflow";
+             break;
+            }
+     }
+           else if(n==4){
+           
+            if(!(delete_at_begining))
+            {cout<<"Stack undeflow";
+             break;
+            }
+     }
+        
+     
+      else if(n==5){
+         if(!(display()))
+         {cout<<"Stack is empty";
+          break;}
+     }
+        else {
+         cout<<"Operation not supported";
+         break;
+     }
+        
+    }while(n!=5);
+    
+    return 0;
+}   
+    

@@ -1,0 +1,56 @@
+#include <stdio.h>
+typedef struct 
+{
+    float rs;
+    float mil;
+    float quan;
+      
+}fuel
+
+int main() {
+ int n,tkm,i,giventotal=0,min=0;
+ scanf("%d\n",& tkm);
+ scanf("%d\n",& n);
+ 
+ fuel f[n];
+ int rup[n];
+ for(i=0;i<n;i++)
+ {scanf("%f %f %f\n",&f[i].rs,&f[i].mil,&f[i].quan);}
+ for(i=0;i<n;i++)
+ giventotal += f[i].quan * f[i].mil;
+ if(tkm!=giventotal)
+ printf("-1");
+ else
+ {
+ for(i=0;i<n;i++)
+ rup[i]=(f[i].rs * f[i].quan)/ f[i].mil;
+ for(i=0;i<n;i++)
+ { 
+  if(rup[i]<rup[min])
+  {min=i;}
+  
+  }
+ printf("%d",rup[min]*(int)f[min].mil)
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+
+    
+    return 0;
+}

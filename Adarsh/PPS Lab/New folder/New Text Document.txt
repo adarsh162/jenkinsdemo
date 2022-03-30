@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+typedef struct
+{   int year;
+    int month;
+	int day;
+    int hour;
+    int min;
+    int sec;
+}date;
+
+int main() {
+    int n,smallest;
+    scanf("%d\n",& n);
+    printf("%d\n",n);
+   date arr[4];
+   date arr2[4];
+    for(int i=0;i<n;i++)
+    {scanf("%04d %02d %02d %02d %02d %02d\n",&arr[i].year,&arr[i].month,&arr[i].day,&arr[i].hour,&arr[i].min,&arr[i].sec);
+}
+    int myear=arr[0].year;
+   
+    for(int i=0;i<n-1;i++)
+    {    smallest=i;
+       for(int j=i+1;j<n;j++)
+       { if(arr[j].year<arr[smallest].year)
+          smallest=j;
+        }
+     
+       arr[2].year=arr[i].year;
+       arr[2].month=arr[i].month;
+       arr[2].day=arr[i].day;
+       arr[2].hour=arr[i].hour;
+       arr[2].min=arr[i].min;
+       arr[2].sec=arr[i].sec;
+     
+     
+       arr[i].year=arr[smallest].year;
+       arr[i].month=arr[smallest].month;
+       arr[i].day=arr[smallest].day;
+       arr[i].hour=arr[smallest].hour;
+       arr[i].min=arr[smallest].min;
+       arr[i].sec=arr[smallest].sec;
+     
+     
+       arr[smallest].year=arr[2].year;
+       arr[smallest].month=arr[2].month;
+       arr[smallest].day=arr[2].day;
+       arr[smallest].hour=arr[2].hour;
+       arr[smallest].min=arr[2].min;
+       arr[smallest].sec=arr[2].sec;
+     
+     
+     
+     
+     
+       
+     
+            /*arr[2]=arr[i];
+            
+            arr[i]=arr[smallest];
+            arr[smallest]=arr[2];*/
+
+    
+    
+    
+    }
+      for(int i=0;i<n;i++)
+        printf("%02d/%02d/%04d %02d:%02d:%02d\n",arr[i].day,arr[i].month,arr[i].year,arr[i].hour,arr[i].min,arr[i].sec);
+    
+    
+    return 0;
+}

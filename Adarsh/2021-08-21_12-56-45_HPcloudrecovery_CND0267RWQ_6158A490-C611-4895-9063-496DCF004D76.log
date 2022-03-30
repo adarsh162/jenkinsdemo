@@ -1,0 +1,1812 @@
+[INFO] 2021-08-21 12:56:45 Aws_Init_Cleanup [15324] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:56:45 FileSystem [15324] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:56:45 Aws::Config::AWSConfigFileProfileConfigLoader [15324] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:56:45 Aws::Config::AWSConfigFileProfileConfigLoader [15324] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:56:45 Aws::Config::AWSProfileConfigLoader [15324] Failed to reload configuration.
+[INFO] 2021-08-21 12:56:45 AppLogicManager [15324]  SetLogPath - The prefix of log file is C:\ProgramData\HP\HP Cloud Recovery Tool\
+[INFO] 2021-08-21 12:56:45 AppLogicManager [15324]  Initialize - App initial time is 2021-08-21 18:26:45
+[INFO] 2021-08-21 12:56:45 AppLogicManager [15324]  Initialize - GUID is 6158A490-C611-4895-9063-496DCF004D76
+[INFO] 2021-08-21 12:56:45 AppLogicManager [15324]  Initialize - TEMP path = C:\Windows\Temp\
+[DEBUG] 2021-08-21 12:56:45 AppLogicManager [15324] >>> LoadConfiguration
+[DEBUG] 2021-08-21 12:56:45 AppLogicManager [15324] <<< LoadConfiguration - 1
+[DEBUG] 2021-08-21 12:56:45 AppLogicManager [15324]  Initialize - Load configuration.json by C:\Program Files\HP\HP Cloud Recovery Tool\configuration.json
+[DEBUG] 2021-08-21 12:56:45 AppLogicManager [15324]  Initialize - Succeeded to load configuration.json
+[DEBUG] 2021-08-21 12:56:45 DiskManager [15324] >>> DiskManager
+[DEBUG] 2021-08-21 12:56:45 DiskManager [15324] >>> ScanDisks
+[DEBUG] 2021-08-21 12:56:45 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:45 DiskManager [15324]  ScanPartitionsFor - disk 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324]  ScanPartitionsFor - partition count 2
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324]  ScanPartitionsFor - disk 0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #2
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324]  ScanPartitionsFor - partition count 3
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324]  ScanPartitionsFor - disk 2
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #2, Partition #0
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324]  ScanPartitionsFor - partition count 1
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< ScanDisks - disk count 3
+[DEBUG] 2021-08-21 12:56:46 DiskManager [15324] <<< DiskManager
+[DEBUG] 2021-08-21 12:56:46 Utils [15324]  GetOutputByCmd - The executable command is powershell -command "Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion'"
+[INFO] 2021-08-21 12:56:46 Utils [15324]  PrintOSVersionProperty - 
+
+SystemRoot                : C:\windows
+BaseBuildRevisionNumber   : 1
+BuildBranch               : vb_release
+BuildGUID                 : ffffffff-ffff-ffff-ffff-ffffffffffff
+BuildLab                  : 19041.vb_release.191206-1406
+BuildLabEx                : 19041.1.amd64fre.vb_release.191206-1406
+CompositionEditionID      : Core
+CurrentBuild              : 19041
+CurrentBuildNumber        : 19041
+CurrentMajorVersionNumber : 10
+CurrentMinorVersionNumber : 0
+CurrentType               : Multiprocessor Free
+CurrentVersion            : 6.3
+EditionID                 : CoreSingleLanguage
+EditionSubManufacturer    : 
+EditionSubstring          : 
+EditionSubVersion         : 
+InstallationType          : Client
+InstallDate               : 1603640768
+ProductName               : Windows 10 Home Single Language
+ReleaseId                 : 2004
+SoftwareType              : System
+UBR                       : 928
+PathName                  : C:\windows
+ProductId                 : 00327-35886-38434-AAOEM
+DigitalProductId          : {164, 0, 0, 0...}
+DigitalProductId4         : {248, 4, 0, 0...}
+RegisteredOwner           : Krupali
+RegisteredOrganization    : HP
+InstallTime               : 132481143683101004
+PSPath                    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows 
+                            NT\CurrentVersion
+PSParentPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT
+PSChildName               : CurrentVersion
+PSDrive                   : HKLM
+PSProvider                : Microsoft.PowerShell.Core\Registry
+
+
+
+
+[INFO] 2021-08-21 12:56:46 Utils [15324]  PrintOSVersionProperty - Succeeded to get property of windows version from regitry.
+[INFO] 2021-08-21 12:56:46 CloudRecoveryApp [15324]  InitInstance - This verion of HP Cloud Recovery is  v2.7.4.0 2021-0219
+[INFO] 2021-08-21 12:56:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:48 PageEULA [15324]  OnClickedRadioYES - User accepts the terms in the license agreement.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [14524]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 12:56:49 AppLogicManager [14524] >>> DetectSystemProxy
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:56:49 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[ERROR] 2021-08-21 12:56:49 AppLogicManager [14524]  DetectSystemProxy - WinHttpGetProxyForUrl failed
+[ERROR] 2021-08-21 12:56:49 AppLogicManager [14524]  LogLastError - DetectSystemProxy- [12180] The Proxy Auto-configuration URL was not found.
+
+[DEBUG] 2021-08-21 12:56:50 AppLogicManager [14524] <<< DetectSystemProxy - 0
+[DEBUG] 2021-08-21 12:56:50 AppLogicManager [14524] >>> CanConnectOnS3
+[DEBUG] 2021-08-21 12:56:50 AppLogicManager [14524]  CanConnectOnS3 - no proxy
+[DEBUG] 2021-08-21 12:56:50 AppLogicManager [14524]  CanConnectOnS3 - Create the connection for s3.ap-southeast-1.amazonaws.com
+[DEBUG] 2021-08-21 12:56:51 AppLogicManager [14524]  CanConnectOnS3 - connected successfully
+[DEBUG] 2021-08-21 12:56:51 AppLogicManager [14524] <<< CanConnectOnS3 - 1
+[DEBUG] 2021-08-21 12:56:51 Utils [14524]  GetOutputByCmd - The executable command is sc query w32time
+[DEBUG] 2021-08-21 12:56:51 Utils [14524]  GetOutputByCmd - The executable command is net start w32time
+[DEBUG] 2021-08-21 12:56:53 Utils [14524]  GetOutputByCmd - The executable command is C:\windows\System32\W32tm.exe /resync
+[DEBUG] 2021-08-21 12:56:53 Utils [14524]  SyncDateTime - The output to execute `C:\windows\System32\W32tm.exe /resync` is as below. 
+
+[DEBUG] 2021-08-21 12:56:53 Utils [14524]  SyncDateTime - Sending resync command to local computer
+The command completed successfully.
+
+[DEBUG] 2021-08-21 12:56:53 Utils [14524]  RunCMDScript - The executable command is net stop w32time
+[DEBUG] 2021-08-21 12:56:54 Utils [14524]  RunCMDScript - The exit code of `RunCMDScript` is 0
+[DEBUG] 2021-08-21 12:56:54 AppLogicManager [14524] >>> FetchOfferingLists
+[INFO] 2021-08-21 12:56:55 WinHttpSyncHttpClient [14524] Creating http client with user agent aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900 with max connections 25 request timeout 10000,and connect timeout 3000
+[DEBUG] 2021-08-21 12:56:55 WinHttpSyncHttpClient [14524] API handle 00000152AD4EF5A0
+[INFO] 2021-08-21 12:56:55 ConnectionPoolMgr [14524] Creating connection pool mgr with handle 00000152AD4EF5A0, and max connections per host 25, request timeout 10000 ms, and connect timeout in 3000 ms.
+[DEBUG] 2021-08-21 12:56:55 Utils [14524]  DecryptForByte - Succeeded to decrypt bytes
+[DEBUG] 2021-08-21 12:56:55 Utils [14524]  ReadStringWithTwoRows - Reading CSV string into map is successful
+[INFO] 2021-08-21 12:56:55 WinHttpSyncHttpClient [14524] Creating http client with user agent aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900 with max connections 25 request timeout 10000,and connect timeout 3000
+[DEBUG] 2021-08-21 12:56:55 WinHttpSyncHttpClient [14524] API handle 00000152A9C62560
+[INFO] 2021-08-21 12:56:55 ConnectionPoolMgr [14524] Creating connection pool mgr with handle 00000152A9C62560, and max connections per host 25, request timeout 10000 ms, and connect timeout in 3000 ms.
+[DEBUG] 2021-08-21 12:56:55 WinSyncHttpClient [14524] Cleaning up client with handle 0000000000000000
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [14524] Cleaning up conneciton pool mgr.
+[DEBUG] 2021-08-21 12:56:55 DownloadManagerAWS [14524]  DownloadObject - Initiating download of C:\Windows\Temp\hpcps-config.gz.dat.hpsign from [hpcps-config, ap-southeast-1]
+[DEBUG] 2021-08-21 12:56:55 DownloadManagerAWS [14524]  DownloadObject - Download the object(hpcps-config.gz.dat.hpsign) from cloud.
+[INFO] 2021-08-21 12:56:55 Aws_Init_Cleanup [14524] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSProfileConfigLoader [14524] Failed to reload configuration.
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13452] Attempting to aquire connection for hpcps-config.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:56:55 WinConnectionContainer [13452] Pool grown by 2
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13452] Connection now available, continuing.
+[INFO] 2021-08-21 12:56:55 TransferManager [13452] Transfer handle ID [4509DF46-81B4-4325-86FA-A3E8D8EEDED1] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13452] Attempting to aquire connection for hpcps-config.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13452] Connection now available, continuing.
+[INFO] 2021-08-21 12:56:55 TransferManager [13452] Transfer handle ID [4509DF46-81B4-4325-86FA-A3E8D8EEDED1] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:56:55 DownloadManagerAWS [14524]  GetResultAfterDownload - Succeeded to download file: hpcps-config.gz.dat.hpsign
+[INFO] 2021-08-21 12:56:55 Aws_Init_Cleanup [14524] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:56:55 FileSystem [14524] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSProfileConfigLoader [14524] Failed to reload configuration.
+[DEBUG] 2021-08-21 12:56:55 DownloadManagerAWS [14524]  DownloadObject - Initiating download of C:\Windows\Temp\hpcps-config.gz.dat from [hpcps-config, ap-southeast-1]
+[DEBUG] 2021-08-21 12:56:55 DownloadManagerAWS [14524]  DownloadObject - Download the object(hpcps-config.gz.dat) from cloud.
+[INFO] 2021-08-21 12:56:55 Aws_Init_Cleanup [14524] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:56:55 Aws::Config::AWSProfileConfigLoader [14524] Failed to reload configuration.
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13904] Attempting to aquire connection for hpcps-config.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:56:55 WinHttpConnectionPoolMgr [13904] Connection now available, continuing.
+[INFO] 2021-08-21 12:56:56 TransferManager [13904] Transfer handle ID [F68A6E33-E8CD-4259-8C63-AD1CB3D292AA] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:56:56 WinHttpConnectionPoolMgr [13904] Attempting to aquire connection for hpcps-config.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:56:56 WinHttpConnectionPoolMgr [13904] Connection now available, continuing.
+[INFO] 2021-08-21 12:56:57 TransferManager [13904] Transfer handle ID [F68A6E33-E8CD-4259-8C63-AD1CB3D292AA] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:56:57 DownloadManagerAWS [14524]  GetResultAfterDownload - Succeeded to download file: hpcps-config.gz.dat
+[INFO] 2021-08-21 12:56:57 Aws_Init_Cleanup [14524] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:56:57 FileSystem [14524] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:56:57 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:56:57 Aws::Config::AWSConfigFileProfileConfigLoader [14524] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:56:57 Aws::Config::AWSProfileConfigLoader [14524] Failed to reload configuration.
+[INFO] 2021-08-21 12:56:57 AppLogicManager [14524]  DownloadCatalogFromBucket - Succeeded to download Catalog for hpcps-config.gz.dat
+[DEBUG] 2021-08-21 12:56:57 Utils [14524] >>> GetMD5
+[DEBUG] 2021-08-21 12:56:57 Utils [14524] <<< GetMD5 - The MD5 of filename: 1e25d2548da2e3a43d8948ccd3bc8eb3
+[DEBUG] 2021-08-21 12:56:57 Utils [14524]  GetExternalFilePath - The file path of DecryptUngz_Net4.exe is C:\Program Files\HP\HP Cloud Recovery Tool\DecryptUngz_Net4.exe
+[DEBUG] 2021-08-21 12:56:57 AppLogicManager [14524]  InitializeCatalog - The executable command is `"C:\Program Files\HP\HP Cloud Recovery Tool\DecryptUngz_Net4.exe" "C:\Windows\Temp\hpcps-config.gz.dat"` but hide the key.
+[DEBUG] 2021-08-21 12:57:08 Utils [14524]  DecryptForBase64 - Decryption for Bese64 chars by AES256 is successful
+[DEBUG] 2021-08-21 12:57:09 AppLogicManager [14524]  InitializeCatalog - Succeeded to import catalog file via C:\Windows\Temp\hpcps-config.gz.dat
+[DEBUG] 2021-08-21 12:57:09 AppLogicManager [14524]  FetchOfferingLists - The catalog file is hpcps-config.gz.dat
+[DEBUG] 2021-08-21 12:57:09 AppLogicManager [14524] <<< FetchOfferingLists - 1
+[DEBUG] 2021-08-21 12:57:09 PageIntroduction [15324]  OnBnClickedBtnNext - Go to system info page.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:09 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] >>> GetSystemInformation
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info $HP$
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info LOC#ABA
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info BCU_Y
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info ABS 70/71 78 79 7A 7B
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info OemString5
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info HP_Mute_LED_P_G
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Feature Byte = 3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info FBYTE#3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t;
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info BUILDID#20WW1GMT601#SACJ#DACJ;
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info OemString9
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info OemString10
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  GetSystemInformation - Dump SMBIOS Info OemString11
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] >>> ParseFeatureByte
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] <<< ParseFeatureByte
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] >>> LogSystemInformation
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - Manufacturer = HP
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - ProductName = HP Laptop 15s-dr2xxx
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - Version = Type1ProductConfigId
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - SerialNumber = ** masked **
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - UUID = ** masked **
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - WakeupType = 06
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - SkuNumber = 172V0PA#ACJ
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - Family = 103C_5335KV HP Notebook
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - FeatureByte = 3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - BuildID = 20WW1GMT601
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogSystemInformation - HPCode = ACJ
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] >>> LogOsInformation
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogOsInformation - OS Family = OS_WINDOWS10
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogOsInformation - OS Edition = VOS_SL
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324]  LogOsInformation - OS Downgrade = DPK_W10
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] <<< LogOsInformation
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] <<< LogSystemInformation
+[DEBUG] 2021-08-21 12:57:20 HPSystemInformation [15324] <<< GetSystemInformation
+[DEBUG] 2021-08-21 12:57:20 PageSysInfo [15324]  VerifyCatalogState - OS Family: 4
+OS Edition: 2
+[DEBUG] 2021-08-21 12:57:20 DownloadManagerAWS [15324] >>> AddRegionMap
+[DEBUG] 2021-08-21 12:57:20 DownloadManagerAWS [15324] <<< AddRegionMap - regions: 
+hp-client-emea-log,eu-central-1
+hp-client-na-log,us-east-1
+hp-client-pa-log,ap-southeast-1
+hp-emea,eu-central-1
+hp-na,us-east-1
+hp-pa,ap-southeast-1
+hpcps-config,ap-southeast-1
+hpcps-sure-recovery-toolset,us-west-1
+hpdev-client-emea-log,eu-central-1
+hpdev-client-na-log,us-east-1
+hpdev-client-pa-log,ap-southeast-1
+hpdev-config,ap-southeast-1
+hpdev-emea,eu-central-1
+hpdev-na,us-east-1
+hpdev-pa,ap-southeast-1
+hpinternal-client-emea-log,eu-central-1
+hpinternal-client-na-log,us-east-1
+hpinternal-client-pa-log,ap-southeast-1
+hpinternal-config,ap-southeast-1
+hpinternal-emea,eu-central-1
+hpinternal-na,us-east-1
+hpinternal-pa,ap-southeast-1
+
+[DEBUG] 2021-08-21 12:57:20 AppLogicManager [15324]  GetLogClientBucket - The bucket to upload logs from client is hp-pa.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:20 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:23 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:23 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:23 Utils [8988]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 12:57:23 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:23 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:23 PageSysInfo [8988]  operator () - Begin to get download information
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988] >>> GetImagesInfoFromCatalog - Get information of Download files
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988]  GetImagesInfoFromCatalog - Product ID: 172V0PA#ACJ
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988]  GetImagesInfoFromCatalog - Country Code: ACJ
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988]  GetImagesInfoFromCatalog - OS: Microsoft Windows 10 64-bit
+[DEBUG] 2021-08-21 12:57:23 Catalog [8988] >>> GetSSRMDownloadInfo - Get SSRM from catalog
+[DEBUG] 2021-08-21 12:57:23 Catalog [8988] <<< GetSSRMDownloadInfo
+[DEBUG] 2021-08-21 12:57:23 Catalog [8988] >>> GetSUPDownloadInfo - Get SUP from catalog
+[DEBUG] 2021-08-21 12:57:23 Catalog [8988] <<< GetSUPDownloadInfo - Key of SUP is N/A or empty
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988] <<< GetImagesInfoFromCatalog
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988] >>> DetectSystemProxy
+[ERROR] 2021-08-21 12:57:23 AppLogicManager [8988]  DetectSystemProxy - WinHttpGetProxyForUrl failed
+[ERROR] 2021-08-21 12:57:23 AppLogicManager [8988]  LogLastError - DetectSystemProxy- [12180] The Proxy Auto-configuration URL was not found.
+
+[DEBUG] 2021-08-21 12:57:23 WinSyncHttpClient [8988] Cleaning up client with handle 0000000000000000
+[INFO] 2021-08-21 12:57:23 WinHttpConnectionPoolMgr [8988] Cleaning up conneciton pool mgr.
+[DEBUG] 2021-08-21 12:57:23 WinHttpConnectionPoolMgr [8988] Closing handle 00000152AD5589A0
+[DEBUG] 2021-08-21 12:57:23 WinHttpConnectionPoolMgr [8988] Closing handle 00000152AD558B40
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988] <<< DetectSystemProxy - 0
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988] >>> CanConnectOnS3
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988]  CanConnectOnS3 - no proxy
+[DEBUG] 2021-08-21 12:57:23 AppLogicManager [8988]  CanConnectOnS3 - Create the connection for s3.ap-southeast-1.amazonaws.com
+[DEBUG] 2021-08-21 12:57:24 AppLogicManager [8988]  CanConnectOnS3 - connected successfully
+[DEBUG] 2021-08-21 12:57:24 AppLogicManager [8988] <<< CanConnectOnS3 - 1
+[INFO] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Creating http client with user agent aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900 with max connections 25 request timeout 10000,and connect timeout 3000
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] API handle 00000152A9C62560
+[INFO] 2021-08-21 12:57:24 ConnectionPoolMgr [8988] Creating connection pool mgr with handle 00000152A9C62560, and max connections per host 25, request timeout 10000 ms, and connect timeout in 3000 ms.
+[DEBUG] 2021-08-21 12:57:24 Utils [8988]  DecryptForByte - Succeeded to decrypt bytes
+[DEBUG] 2021-08-21 12:57:24 Utils [8988]  ReadStringWithTwoRows - Reading CSV string into map is successful
+[INFO] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Creating http client with user agent aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900 with max connections 25 request timeout 10000,and connect timeout 3000
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] API handle 00000152C7F0EC40
+[INFO] 2021-08-21 12:57:24 ConnectionPoolMgr [8988] Creating connection pool mgr with handle 00000152C7F0EC40, and max connections per host 25, request timeout 10000 ms, and connect timeout in 3000 ms.
+[DEBUG] 2021-08-21 12:57:24 WinSyncHttpClient [8988] Cleaning up client with handle 0000000000000000
+[INFO] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Cleaning up conneciton pool mgr.
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Canonical Header String: content-type:application/xml
+host:hp-pa.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210821T125724Z
+
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Signed Headers value:content-type;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Canonical Request String: GET
+/
+prefix=M50652-D61.ISO
+content-type:application/xml
+host:hp-pa.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210821T125724Z
+
+content-type;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Final String to sign: AWS4-HMAC-SHA256
+20210821T125724Z
+20210821/ap-southeast-1/s3/aws4_request
+89b9ca0760c30b99a328b7ceb720e739b2ab275b462fa72d8e12f3534e5c220c
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Final computed signing hash: ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Signing request with: AWS4-HMAC-SHA256 Credential=AKIA52RZAFUOFKIDOE5H/20210821/ap-southeast-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+[DEBUG] 2021-08-21 12:57:24 AWSClient [8988] Request Successfully signed
+[INFO] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Pool doesn't exist for endpoint, creating...
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Pool has no available existing connections for endpoint, attempting to grow pool.
+[INFO] 2021-08-21 12:57:24 WinConnectionContainer [8988] Pool grown by 2
+[INFO] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Connection now available, continuing.
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Returning connection handle 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Acquired connection 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] AllocateWindowsHttpRequest returned handle 00000152A9BE0700
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] with headers:
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] authorization: AWS4-HMAC-SHA256 Credential=AKIA52RZAFUOFKIDOE5H/20210821/ap-southeast-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+content-type: application/xml
+host: hp-pa.s3.ap-southeast-1.amazonaws.com
+user-agent: aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20210821T125724Z
+
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Received response code 200
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Received content type application/xml
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Received headers:
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] HTTP/1.1 200 OK
+Date: Sat, 21 Aug 2021 12:57:25 GMT
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Server: AmazonS3
+x-amz-id-2: XSL1UnU20JLHdQwpmkXi3odI3dxeVXTOy1Uh7ybIHlnF4sUVTcAnfGyfIHGkT6OWVDP4kzDG2+0=
+x-amz-request-id: DSB94GG86ZR4ZPR3
+x-amz-bucket-region: ap-southeast-1
+
+
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Closing http request handle 00000152A9BE0700
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Releasing connection handle 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Releasing connection to endpoint hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[DEBUG] 2021-08-21 12:57:24 AWSClient [8988] Request returned successful response.
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Canonical Header String: content-type:application/xml
+host:hp-pa.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210821T125724Z
+
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Signed Headers value:content-type;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Canonical Request String: GET
+/
+prefix=M50652-D61.ISO
+content-type:application/xml
+host:hp-pa.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210821T125724Z
+
+content-type;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Final String to sign: AWS4-HMAC-SHA256
+20210821T125724Z
+20210821/ap-southeast-1/s3/aws4_request
+89b9ca0760c30b99a328b7ceb720e739b2ab275b462fa72d8e12f3534e5c220c
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Final computed signing hash: ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+[DEBUG] 2021-08-21 12:57:24 AWSAuthV4Signer [8988] Signing request with: AWS4-HMAC-SHA256 Credential=AKIA52RZAFUOFKIDOE5H/20210821/ap-southeast-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+[DEBUG] 2021-08-21 12:57:24 AWSClient [8988] Request Successfully signed
+[INFO] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Pool found, reusing
+[INFO] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Connection now available, continuing.
+[DEBUG] 2021-08-21 12:57:24 WinHttpConnectionPoolMgr [8988] Returning connection handle 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] Acquired connection 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] AllocateWindowsHttpRequest returned handle 00000152A9BE0700
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] with headers:
+[DEBUG] 2021-08-21 12:57:24 WinHttpSyncHttpClient [8988] authorization: AWS4-HMAC-SHA256 Credential=AKIA52RZAFUOFKIDOE5H/20210821/ap-southeast-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=ebc5bdb094f0f6510c2c6e11ee7eeade17632571cff7db7fcbda6838209007e0
+content-type: application/xml
+host: hp-pa.s3.ap-southeast-1.amazonaws.com
+user-agent: aws-sdk-cpp/1.6.25 Windows/10.0.19041.804 AMD64 MSVC/1900
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20210821T125724Z
+
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] Received response code 200
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] Received content type application/xml
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] Received headers:
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] HTTP/1.1 200 OK
+Date: Sat, 21 Aug 2021 12:57:25 GMT
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Server: AmazonS3
+x-amz-id-2: Re51+WoLjR2h6HY1YhVUo9YZDTrtHEkm+sPD/7GjxQyZof/fuQ6p5MqpaS11bPlvHaRpg6z2HnI=
+x-amz-request-id: DSB0X365G3JPRAKP
+x-amz-bucket-region: ap-southeast-1
+
+
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] Closing http request handle 00000152A9BE0700
+[DEBUG] 2021-08-21 12:57:25 WinHttpSyncHttpClient [8988] Releasing connection handle 00000152AD558E80
+[DEBUG] 2021-08-21 12:57:25 WinHttpConnectionPoolMgr [8988] Releasing connection to endpoint hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[DEBUG] 2021-08-21 12:57:25 AWSClient [8988] Request returned successful response.
+[INFO] 2021-08-21 12:57:25 AppLogicManager [8988]  TakeExistingFile - Prepare to download file: M50652-D61.ISO
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [8988]  CheckAvaliableSpaceFromLocalDrive - The largest file size is 15417614336
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [8988]  CheckAvaliableSpaceFromLocalDrive - The current size of the local hard drive is 128251330560
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [8988]  CheckAvaliableSpaceFromLocalDrive - The necessary size tool needs is 31908970496
+[DEBUG] 2021-08-21 12:57:25 PagePrepareUSB [15324] >>> PopulateRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [15324] >>> GetRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> DiskManager
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanDisks
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - disk 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - partition count 2
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - disk 0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #2
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - partition count 3
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - disk 2
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #2, Partition #0
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324]  ScanPartitionsFor - partition count 1
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< ScanDisks - disk count 3
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< DiskManager
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [15324]  GetRemovableUsbDiskList - loading page, disk scan:
+Disk.index = 2
+Disk.capabilities = 3,4,7
+Disk.caption = SanDisk Ultra USB Device
+Disk.deviceId = \\.\PHYSICALDRIVE2
+Disk.interfaceType = USB
+Disk.mediaLoaded = true
+Disk.mediaType = Removable Media
+Disk.partitionCount = 1
+Disk.serialNumber = 
+Disk.size = 30746096640
+Disk.status = OK
+	Partition.deviceId = Disk #2, Partition #0
+	Partition.size = 30751588352
+		LogicalDisk.deviceId = F:
+		LogicalDisk.description = Removable Disk
+		LogicalDisk.fileSystem = FAT32
+		LogicalDisk.volumeName = HARSHIL
+
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [15324] <<< GetRemovableUsbDiskList - 1
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [15324] >>> GetFriendlyDiskSize
+[DEBUG] 2021-08-21 12:57:25 AppLogicManager [15324] <<< GetFriendlyDiskSize - 28.63 GB
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] >>> GetLogicalLetter - Device ID \\.\PHYSICALDRIVE2
+[DEBUG] 2021-08-21 12:57:25 DiskManager [15324] <<< GetLogicalLetter - USB logicalDrive: F:
+[DEBUG] 2021-08-21 12:57:25 PagePrepareUSB [15324] <<< PopulateRemovableUsbDiskList
+[INFO] 2021-08-21 12:57:25 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:25 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 12:57:32 AppLogicManager [15324] >>> GetFriendlyDiskSize
+[DEBUG] 2021-08-21 12:57:32 AppLogicManager [15324] <<< GetFriendlyDiskSize - 28.63 GB
+[INFO] 2021-08-21 12:57:32 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:32 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:32 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:32 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 12:57:46 AppLogicManager [15324] >>> GetFriendlyDiskSize
+[DEBUG] 2021-08-21 12:57:46 AppLogicManager [15324] <<< GetFriendlyDiskSize - 28.63 GB
+[INFO] 2021-08-21 12:57:46 PagePrepareUSB [15324]  OnBnClickedBtnNext - Begin to format usb
+[INFO] 2021-08-21 12:57:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:46 Utils [11664]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 12:57:46 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:46 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:46 AppLogicManager [11664]  FormatDisk - Creating disk partition layout
+[DEBUG] 2021-08-21 12:57:46 Utils [11664]  GetOutputByCmd - The executable command is wmic diskdrive get index
+[DEBUG] 2021-08-21 12:57:46 DownloadManagerAWS [11664]  DownloadObject - Initiating download of C:\Windows\Temp\DL_START.FLG from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 12:57:46 DownloadManagerAWS [11664]  DownloadObject - Download the object(Kibana//DL_START.FLG) from cloud.
+[INFO] 2021-08-21 12:57:46 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:57:46 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:46 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:46 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[INFO] 2021-08-21 12:57:46 WinHttpConnectionPoolMgr [5168] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:46 WinHttpConnectionPoolMgr [5168] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:46 TransferManager [5168] Transfer handle ID [15BC9BAD-2797-414F-834D-DDB2F98E612E] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:57:46 WinHttpConnectionPoolMgr [5168] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:46 WinHttpConnectionPoolMgr [5168] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:47 TransferManager [5168] Transfer handle ID [15BC9BAD-2797-414F-834D-DDB2F98E612E] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  GetResultAfterDownload - Succeeded to download file: DL_START.FLG
+[INFO] 2021-08-21 12:57:47 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:57:47 FileSystem [11664] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[DEBUG] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to download DL_START.FLG
+[INFO] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to remove flag(00000152CE6C6A70) from local space.
+[INFO] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadStartFlag - It is begining to recovery process now.
+[DEBUG] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  DownloadObject - Initiating download of C:\Windows\Temp\CRY_MODE.FLG from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  DownloadObject - Download the object(Kibana//CRY_MODE.FLG) from cloud.
+[INFO] 2021-08-21 12:57:47 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [4164] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [4164] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:47 TransferManager [4164] Transfer handle ID [AC58D7E6-AA34-434F-B3B3-C10E56B041E8] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [4164] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [4164] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:47 TransferManager [4164] Transfer handle ID [AC58D7E6-AA34-434F-B3B3-C10E56B041E8] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  GetResultAfterDownload - Succeeded to download file: CRY_MODE.FLG
+[INFO] 2021-08-21 12:57:47 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:57:47 FileSystem [11664] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[DEBUG] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to download CRY_MODE.FLG
+[INFO] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to remove flag(00000152CE6C5F30) from local space.
+[DEBUG] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  DownloadObject - Initiating download of C:\Windows\Temp\WIN32.FLG from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  DownloadObject - Download the object(Kibana//WIN32.FLG) from cloud.
+[INFO] 2021-08-21 12:57:47 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [11040] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [11040] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:47 TransferManager [11040] Transfer handle ID [86688804-2642-40A3-9B2C-9A586D0AEE0A] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [11040] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:47 WinHttpConnectionPoolMgr [11040] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:47 TransferManager [11040] Transfer handle ID [86688804-2642-40A3-9B2C-9A586D0AEE0A] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:57:47 DownloadManagerAWS [11664]  GetResultAfterDownload - Succeeded to download file: WIN32.FLG
+[INFO] 2021-08-21 12:57:47 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:57:47 FileSystem [11664] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:47 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[DEBUG] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to download WIN32.FLG
+[INFO] 2021-08-21 12:57:47 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to remove flag(00000152CE6C6930) from local space.
+[DEBUG] 2021-08-21 12:57:47 Utils [11664]  GetOutputByCmd - The executable command is powershell -command "Get-WmiObject -locale 1033 Win32_IP4RouteTAble | Where-Object {$_.Destination -eq '0.0.0.0'} | select -ExpandProperty InterfaceIndex"
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  GetOutputByCmd - The executable command is powershell -command "(Get-WMIObject -locale 1033 Win32_NetworkAdapterConfiguration | Where-Object {$_.InterfaceIndex -eq 20}).Description"
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  IsWifiNetwork - The netowrk interface index is 20 and the description of network adapter is 'Intel(R) Wi-Fi 6 AX201 160MHz'. 
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  GetOutputByCmd - The executable command is powershell -command "(Get-WMIObject -locale 1033 Win32_NetworkAdapterConfiguration | Where-Object {$_.InterfaceIndex -eq 20})"
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  LogNetworkAdapterInfo - This detail of network interface index(20) is below.
+DHCPEnabled      : True
+IPAddress        : {192.168.43.127, fe80::c400:df76:3f9a:326e, 2405:204:8480:a56f:6db3:8add:3817:7791, 
+                   2405:204:8480:a56f:c400:df76:3f9a:326e}
+DefaultIPGateway : {192.168.43.1, fe80::82ad:16ff:feba:70e}
+DNSDomain        : 
+ServiceName      : Netwtw10.
+Description      : Intel(R) Wi-Fi 6 AX201 160MHz
+Index            : 2. 
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  IsWifiNetwork - The list of network interface index is 20
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  IsWifiNetwork - This network adpter is Wireless type and the description is INTEL(R) WI-FI 6 AX201 160MHZ
+[DEBUG] 2021-08-21 12:57:48 Utils [11664]  IsWifiNetwork - The network type of this PC is Wireless
+[DEBUG] 2021-08-21 12:57:48 DownloadManagerAWS [11664]  DownloadObject - Initiating download of C:\Windows\Temp\START_WLAN.FLG from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 12:57:48 DownloadManagerAWS [11664]  DownloadObject - Download the object(Kibana//START_WLAN.FLG) from cloud.
+[INFO] 2021-08-21 12:57:48 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:57:48 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:48 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:48 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[INFO] 2021-08-21 12:57:48 WinHttpConnectionPoolMgr [8204] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:48 WinHttpConnectionPoolMgr [8204] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:49 TransferManager [8204] Transfer handle ID [739EE2FA-766E-43C1-A3F6-A05774415C6B] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:57:49 WinHttpConnectionPoolMgr [8204] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:49 WinHttpConnectionPoolMgr [8204] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:49 TransferManager [8204] Transfer handle ID [739EE2FA-766E-43C1-A3F6-A05774415C6B] Updated handle status from [IN_PROGRESS] to [COMPLETED].
+[INFO] 2021-08-21 12:57:49 DownloadManagerAWS [11664]  GetResultAfterDownload - Succeeded to download file: START_WLAN.FLG
+[INFO] 2021-08-21 12:57:49 Aws_Init_Cleanup [11664] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 12:57:49 FileSystem [11664] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 12:57:49 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:49 Aws::Config::AWSConfigFileProfileConfigLoader [11664] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:49 Aws::Config::AWSProfileConfigLoader [11664] Failed to reload configuration.
+[DEBUG] 2021-08-21 12:57:49 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to download START_WLAN.FLG
+[INFO] 2021-08-21 12:57:49 KibanaFlagDownloader [11664]  DownloadSpecifiedFlag - Succeeded to remove flag(00000152CE6C5B20) from local space.
+[DEBUG] 2021-08-21 12:57:49 AppLogicManager [11664] >>> CreateUSBPartition
+[DEBUG] 2021-08-21 12:57:49 AppLogicManager [11664]  CreateUSBPartition - Don't assign the specific size to partition and we use the all size of USB drive.
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664] >>> CreateRecoveryUSBDriveLayoutOnePart
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664] >>> GetLogicalDriveOnDiskIndex - index 2
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664] <<< GetLogicalDriveOnDiskIndex - USB logicalDrive: F:
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664] >>> RunDiskpartScript
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664]  RunDiskpartScript - Record the executing commands as below 
+
+[DEBUG] 2021-08-21 12:57:49 DiskManager [11664]  RunDiskpartScript - rescan
+sel disk 2
+clean
+convert mbr
+create partition primary
+active
+format fs=fat32 label=HP_RECOVERY quick
+assign letter=F
+
+[DEBUG] 2021-08-21 12:57:49 Utils [11664]  GetOutputByCmd - The executable command is diskpart /s C:\Windows\Temp\hprecoverydiskpart.txt
+[DEBUG] 2021-08-21 12:57:53 PagePrepareUSB [15324] >>> PopulateRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324] >>> GetRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> DiskManager
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanDisks
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664]  RunDiskpartScript - The output of diskpart command as below. 
+
+Microsoft DiskPart version 10.0.19041.610
+
+Copyright (C) Microsoft Corporation.
+On computer: LAPTOP-DRBEL38G
+
+Please wait while DiskPart scans your configuration...
+
+DiskPart has finished scanning your configuration.
+
+Disk 2 is now the selected disk.
+
+DiskPart succeeded in cleaning the disk.
+
+DiskPart successfully converted the selected disk to MBR format.
+
+DiskPart succeeded in creating the specified partition.
+
+DiskPart marked the current partition as active.
+
+    0 percent completed    0 percent completed    0 percent completed    0 percent completed    0 percent completed  100 percent completed
+
+DiskPart successfully formatted the volume.
+
+DiskPart successfully assigned the drive letter or mount point.
+
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] <<< RunDiskpartScript
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664]  ScanPartitionsFor - disk 2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] >>> ScanLogicalDisksFor - Disk #2, Partition #0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664]  ScanPartitionsFor - partition count 2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [11664] <<< CreateRecoveryUSBDriveLayoutOnePart - 1
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [11664]  CreateUSBPartition - Succeeded to execute `CreateUSBPartition` function.
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - disk 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - partition count 2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - disk 0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - partition count 3
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - disk 2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #2, Partition #0
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324]  ScanPartitionsFor - partition count 1
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< ScanDisks - disk count 3
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< DiskManager
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324]  GetRemovableUsbDiskList - initial disk scan:
+Disk.index = 2
+Disk.capabilities = 3,4,7
+Disk.caption = SanDisk Ultra USB Device
+Disk.deviceId = \\.\PHYSICALDRIVE2
+Disk.interfaceType = USB
+Disk.mediaLoaded = true
+Disk.mediaType = Removable Media
+Disk.partitionCount = 1
+Disk.serialNumber = 
+Disk.size = 30746096640
+Disk.status = OK
+	Partition.deviceId = Disk #2, Partition #0
+	Partition.size = 30751588352
+		LogicalDisk.deviceId = F:
+		LogicalDisk.description = Removable Disk
+		LogicalDisk.fileSystem = FAT32
+		LogicalDisk.volumeName = HARSHIL
+	Partition.deviceId = Disk #2, Partition #0
+	Partition.size = 30751588352
+		LogicalDisk.deviceId = F:
+		LogicalDisk.description = Removable Disk
+		LogicalDisk.fileSystem = FAT32
+		LogicalDisk.volumeName = HP_RECOVERY
+
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324]  GetRemovableUsbDiskList - after filtering by USB, Capability 7, and size:
+Disk.index = 2
+Disk.capabilities = 3,4,7
+Disk.caption = SanDisk Ultra USB Device
+Disk.deviceId = \\.\PHYSICALDRIVE2
+Disk.interfaceType = USB
+Disk.mediaLoaded = true
+Disk.mediaType = Removable Media
+Disk.partitionCount = 1
+Disk.serialNumber = 
+Disk.size = 30746096640
+Disk.status = OK
+	Partition.deviceId = Disk #2, Partition #0
+	Partition.size = 30751588352
+		LogicalDisk.deviceId = F:
+		LogicalDisk.description = Removable Disk
+		LogicalDisk.fileSystem = FAT32
+		LogicalDisk.volumeName = HP_RECOVERY
+
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324] <<< GetRemovableUsbDiskList - 1
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324] >>> GetFriendlyDiskSize
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324] <<< GetFriendlyDiskSize - 28.63 GB
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> GetLogicalLetter - Device ID \\.\PHYSICALDRIVE2
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] <<< GetLogicalLetter - USB logicalDrive: F:
+[DEBUG] 2021-08-21 12:57:53 PagePrepareUSB [15324] <<< PopulateRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [11664] <<< CreateUSBPartition - 1
+[INFO] 2021-08-21 12:57:53 PagePrepareUSB [15324]  OnBnClickedBtnNext - Begin to download iso files and extract into USB
+[INFO] 2021-08-21 12:57:53 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:53 Utils [14532]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 12:57:53 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 12:57:53 PagePrepareUSB [15324] >>> PopulateRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:53 AppLogicManager [15324] >>> GetRemovableUsbDiskList
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> DiskManager
+[DEBUG] 2021-08-21 12:57:53 DiskManager [15324] >>> ScanDisks
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - disk 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #1, Partition #1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - partition count 2
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - disk 0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #0, Partition #2
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - partition count 3
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - disk 2
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> ScanLogicalDisksFor - Disk #2, Partition #0
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanLogicalDisksFor - logical disk count 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324]  ScanPartitionsFor - partition count 1
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanPartitionsFor
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< ScanDisks - disk count 3
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< DiskManager
+[DEBUG] 2021-08-21 12:57:54 AppLogicManager [15324] <<< GetRemovableUsbDiskList - 1
+[DEBUG] 2021-08-21 12:57:54 AppLogicManager [15324] >>> GetFriendlyDiskSize
+[DEBUG] 2021-08-21 12:57:54 AppLogicManager [15324] <<< GetFriendlyDiskSize - 28.63 GB
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] >>> GetLogicalLetter - Device ID \\.\PHYSICALDRIVE2
+[DEBUG] 2021-08-21 12:57:54 DiskManager [15324] <<< GetLogicalLetter - USB logicalDrive: F:
+[DEBUG] 2021-08-21 12:57:54 PagePrepareUSB [15324] <<< PopulateRemovableUsbDiskList
+[INFO] 2021-08-21 12:57:54 AppLogicManager [14532]  MeasureNetworkLatencyTimeOverCurrentBucket - The latency from client to https://s3.ap-southeast-1.amazonaws.com is 144
+[DEBUG] 2021-08-21 12:57:54 AppLogicManager [14532] >>> DownloadFiles
+[INFO] 2021-08-21 12:57:54 AppLogicManager [14532]  TakeExistingFile - Prepare to download file: M50652-D61.ISO
+[DEBUG] 2021-08-21 12:57:54 DownloadManagerAWS [14532]  DownloadObject - Initiating download of C:\Windows\Temp\M50652-D61.ISO from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 12:57:54 DownloadManagerAWS [14532]  DownloadObject - Download the object(M50652-D61.ISO) from cloud.
+[INFO] 2021-08-21 12:57:54 Aws_Init_Cleanup [14532] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 12:57:54 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 12:57:54 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 12:57:54 Aws::Config::AWSProfileConfigLoader [14532] Failed to reload configuration.
+[INFO] 2021-08-21 12:57:54 WinHttpConnectionPoolMgr [9644] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:54 WinHttpConnectionPoolMgr [9644] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 TransferManager [9644] Transfer handle ID [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Updated handle status from [NOT_STARTED] to [IN_PROGRESS].
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [3372] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [3372] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [2812] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [2812] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [4984] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinConnectionContainer [4984] Pool grown by 4
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [4984] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [6084] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [6084] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [6664] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [6664] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [10260] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [10260] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [11584] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinConnectionContainer [11584] Pool grown by 12
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [11584] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [15268] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [15268] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [12092] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [12092] Connection now available, continuing.
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [14776] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:57:55 WinHttpConnectionPoolMgr [14776] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:20 WinHttpConnectionPoolMgr [6136] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:20 WinHttpConnectionPoolMgr [6136] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:30 WinHttpConnectionPoolMgr [6484] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:30 WinHttpConnectionPoolMgr [6484] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:30 WinHttpConnectionPoolMgr [4392] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:30 WinHttpConnectionPoolMgr [4392] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:31 WinHttpConnectionPoolMgr [6580] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:31 WinHttpConnectionPoolMgr [6580] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:34 WinHttpConnectionPoolMgr [12568] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:34 WinHttpConnectionPoolMgr [12568] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:35 WinHttpConnectionPoolMgr [2920] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:35 WinHttpConnectionPoolMgr [2920] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:37 WinHttpConnectionPoolMgr [10680] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:37 WinHttpConnectionPoolMgr [10680] Connection now available, continuing.
+[WARN] 2021-08-21 12:58:38 WinHttpSyncHttpClient [10680] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 12:58:38 AWSClient [10680] HTTP response code: 526379664
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 12:58:38 AWSClient [10680] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 12:58:38 AWSClient [10680] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 12:58:38 WinHttpConnectionPoolMgr [10680] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:38 WinHttpConnectionPoolMgr [10680] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:39 WinHttpConnectionPoolMgr [5256] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:39 WinHttpConnectionPoolMgr [5256] Connection now available, continuing.
+[WARN] 2021-08-21 12:58:40 WinHttpSyncHttpClient [5256] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 12:58:40 AWSClient [5256] HTTP response code: 528477728
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 12:58:40 AWSClient [5256] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 12:58:40 AWSClient [5256] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 12:58:40 WinHttpConnectionPoolMgr [5256] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:40 WinHttpConnectionPoolMgr [5256] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:41 WinHttpConnectionPoolMgr [11876] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:41 WinHttpConnectionPoolMgr [11876] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:47 WinHttpConnectionPoolMgr [14640] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:47 WinHttpConnectionPoolMgr [14640] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:54 WinHttpConnectionPoolMgr [14412] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:54 WinHttpConnectionPoolMgr [14412] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:57 WinHttpConnectionPoolMgr [13768] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:57 WinHttpConnectionPoolMgr [13768] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:57 WinHttpConnectionPoolMgr [3120] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:57 WinHttpConnectionPoolMgr [3120] Connection now available, continuing.
+[WARN] 2021-08-21 12:58:58 WinHttpSyncHttpClient [13768] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 12:58:58 AWSClient [13768] HTTP response code: 525331552
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 12:58:58 AWSClient [13768] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 12:58:58 AWSClient [13768] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 12:58:58 WinHttpConnectionPoolMgr [13768] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:58 WinHttpConnectionPoolMgr [13768] Connection now available, continuing.
+[INFO] 2021-08-21 12:58:58 WinHttpConnectionPoolMgr [1520] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:58:58 WinHttpConnectionPoolMgr [1520] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:01 WinHttpConnectionPoolMgr [15304] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:01 WinHttpConnectionPoolMgr [15304] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:11 WinHttpConnectionPoolMgr [4948] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:11 WinHttpConnectionPoolMgr [4948] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:15 WinHttpConnectionPoolMgr [12188] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:15 WinHttpConnectionPoolMgr [12188] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:15 WinHttpConnectionPoolMgr [14808] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:15 WinHttpConnectionPoolMgr [14808] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:29 WinHttpConnectionPoolMgr [11664] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:29 WinHttpConnectionPoolMgr [11664] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:30 WinHttpConnectionPoolMgr [3268] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:30 WinHttpConnectionPoolMgr [3268] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:32 WinHttpConnectionPoolMgr [15176] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:32 WinHttpConnectionPoolMgr [15176] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:34 WinHttpConnectionPoolMgr [6376] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:34 WinHttpConnectionPoolMgr [6376] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:39 WinHttpConnectionPoolMgr [4120] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:39 WinHttpConnectionPoolMgr [4120] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:42 WinHttpConnectionPoolMgr [10496] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:42 WinHttpConnectionPoolMgr [10496] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:42 WinHttpConnectionPoolMgr [14988] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:42 WinHttpConnectionPoolMgr [14988] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:49 WinHttpConnectionPoolMgr [6380] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:49 WinHttpConnectionPoolMgr [6380] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:50 WinHttpConnectionPoolMgr [1596] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:50 WinHttpConnectionPoolMgr [1596] Connection now available, continuing.
+[WARN] 2021-08-21 12:59:50 WinHttpSyncHttpClient [1596] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 12:59:50 AWSClient [1596] HTTP response code: 529525872
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 12:59:50 AWSClient [1596] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 12:59:50 AWSClient [1596] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 12:59:50 WinHttpConnectionPoolMgr [1596] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:50 WinHttpConnectionPoolMgr [1596] Connection now available, continuing.
+[INFO] 2021-08-21 12:59:51 WinHttpConnectionPoolMgr [14496] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 12:59:51 WinHttpConnectionPoolMgr [14496] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:00 WinHttpConnectionPoolMgr [11756] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:00 WinHttpConnectionPoolMgr [11756] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:06 WinHttpConnectionPoolMgr [15216] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:06 WinHttpConnectionPoolMgr [15216] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:07 WinHttpConnectionPoolMgr [14772] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:07 WinHttpConnectionPoolMgr [14772] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:08 WinHttpConnectionPoolMgr [15044] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:08 WinHttpConnectionPoolMgr [15044] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:08 WinHttpConnectionPoolMgr [14616] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:08 WinHttpConnectionPoolMgr [14616] Connection now available, continuing.
+[ERROR] 2021-08-21 13:00:14 WinHttpSyncHttpClient [4120] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:00:14 AWSClient [4120] HTTP response code: 531623072
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:00:14 AWSClient [4120] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:00:14 AWSClient [4120] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:00:14 WinHttpConnectionPoolMgr [4120] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:14 WinHttpConnectionPoolMgr [4120] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:22 WinHttpConnectionPoolMgr [12064] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:22 WinHttpConnectionPoolMgr [12064] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:29 WinHttpConnectionPoolMgr [3372] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:29 WinHttpConnectionPoolMgr [3372] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:34 WinHttpConnectionPoolMgr [9240] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:34 WinHttpConnectionPoolMgr [9240] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:37 WinHttpConnectionPoolMgr [10592] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:37 WinHttpConnectionPoolMgr [10592] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:46 WinHttpConnectionPoolMgr [2812] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:46 WinHttpConnectionPoolMgr [2812] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:47 WinHttpConnectionPoolMgr [11592] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:47 WinHttpConnectionPoolMgr [11592] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:55 WinHttpConnectionPoolMgr [11596] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:55 WinHttpConnectionPoolMgr [11596] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:57 WinHttpConnectionPoolMgr [9040] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:57 WinHttpConnectionPoolMgr [9040] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:59 WinHttpConnectionPoolMgr [9676] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:59 WinHttpConnectionPoolMgr [9676] Connection now available, continuing.
+[INFO] 2021-08-21 13:00:59 WinHttpConnectionPoolMgr [4160] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:00:59 WinHttpConnectionPoolMgr [4160] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:02 WinHttpConnectionPoolMgr [1744] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:02 WinHttpConnectionPoolMgr [1744] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:06 WinHttpConnectionPoolMgr [8680] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:06 WinHttpConnectionPoolMgr [8680] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:20 WinHttpConnectionPoolMgr [6640] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:20 WinHttpConnectionPoolMgr [6640] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:25 WinHttpConnectionPoolMgr [12400] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:25 WinHttpConnectionPoolMgr [12400] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:27 WinHttpConnectionPoolMgr [4260] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:27 WinHttpConnectionPoolMgr [4260] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:29 WinHttpConnectionPoolMgr [5652] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:29 WinHttpConnectionPoolMgr [5652] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:31 WinHttpConnectionPoolMgr [3408] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:31 WinHttpConnectionPoolMgr [3408] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:31 WinHttpConnectionPoolMgr [10936] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:31 WinHttpConnectionPoolMgr [10936] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [10436] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [10436] Connection now available, continuing.
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [14636] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [14636] Connection now available, continuing.
+[WARN] 2021-08-21 13:01:32 WinHttpSyncHttpClient [10436] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:01:32 AWSClient [10436] HTTP response code: 525331488
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:01:32 AWSClient [10436] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:01:32 AWSClient [10436] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [10436] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:01:32 WinHttpConnectionPoolMgr [10436] Connection now available, continuing.
+[INFO] 2021-08-21 13:02:09 WinHttpConnectionPoolMgr [804] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:02:09 WinHttpConnectionPoolMgr [804] Connection now available, continuing.
+[INFO] 2021-08-21 13:02:30 WinHttpConnectionPoolMgr [1008] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:02:30 WinHttpConnectionPoolMgr [1008] Connection now available, continuing.
+[INFO] 2021-08-21 13:02:50 WinHttpConnectionPoolMgr [14940] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:02:50 WinHttpConnectionPoolMgr [14940] Connection now available, continuing.
+[WARN] 2021-08-21 13:02:53 WinHttpSyncHttpClient [14940] Send request failed: The operation timed out
+
+[ERROR] 2021-08-21 13:02:53 AWSClient [14940] HTTP response code: 533719424
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:02:53 AWSClient [14940] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:02:53 AWSClient [14940] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:02:54 WinHttpConnectionPoolMgr [14940] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:02:54 WinHttpConnectionPoolMgr [14940] Connection now available, continuing.
+[WARN] 2021-08-21 13:02:58 WinHttpSyncHttpClient [14940] Send request failed: The operation timed out
+
+[ERROR] 2021-08-21 13:02:58 AWSClient [14940] HTTP response code: 533719424
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:02:58 AWSClient [14940] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:02:58 AWSClient [14940] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:02:58 WinHttpConnectionPoolMgr [14940] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:02:58 WinHttpConnectionPoolMgr [14940] Connection now available, continuing.
+[ERROR] 2021-08-21 13:03:02 WinHttpSyncHttpClient [6640] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:03:02 AWSClient [6640] HTTP response code: 504360528
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:03:02 AWSClient [6640] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:03:02 AWSClient [6640] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:03:02 WinHttpConnectionPoolMgr [6640] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:02 WinHttpConnectionPoolMgr [6640] Connection now available, continuing.
+[WARN] 2021-08-21 13:03:02 WinHttpSyncHttpClient [14940] Send request failed: The operation timed out
+
+[ERROR] 2021-08-21 13:03:02 AWSClient [14940] HTTP response code: 533719424
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:03:02 AWSClient [14940] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:03:02 AWSClient [14940] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:03:02 WinHttpConnectionPoolMgr [14940] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:02 WinHttpConnectionPoolMgr [14940] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:10 WinHttpConnectionPoolMgr [8688] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:10 WinHttpConnectionPoolMgr [8688] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:11 WinHttpConnectionPoolMgr [1688] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:11 WinHttpConnectionPoolMgr [1688] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:14 WinHttpConnectionPoolMgr [12224] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:14 WinHttpConnectionPoolMgr [12224] Connection now available, continuing.
+[WARN] 2021-08-21 13:03:16 WinHttpSyncHttpClient [12224] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:03:16 AWSClient [12224] HTTP response code: 521136768
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:03:16 AWSClient [12224] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:03:16 AWSClient [12224] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:03:16 WinHttpConnectionPoolMgr [12224] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:16 WinHttpConnectionPoolMgr [12224] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:19 WinHttpConnectionPoolMgr [6044] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:19 WinHttpConnectionPoolMgr [6044] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:19 WinHttpConnectionPoolMgr [6188] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:19 WinHttpConnectionPoolMgr [6188] Connection now available, continuing.
+[WARN] 2021-08-21 13:03:20 WinHttpSyncHttpClient [6188] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:03:20 AWSClient [6188] HTTP response code: 505408368
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:03:20 AWSClient [6188] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:03:20 AWSClient [6188] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:03:20 WinHttpConnectionPoolMgr [6188] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:20 WinHttpConnectionPoolMgr [6188] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:22 WinHttpConnectionPoolMgr [11180] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:22 WinHttpConnectionPoolMgr [11180] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:23 WinHttpConnectionPoolMgr [15072] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:23 WinHttpConnectionPoolMgr [15072] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:23 WinHttpConnectionPoolMgr [12124] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:23 WinHttpConnectionPoolMgr [12124] Connection now available, continuing.
+[WARN] 2021-08-21 13:03:24 WinHttpSyncHttpClient [12124] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:03:24 AWSClient [12124] HTTP response code: 531622336
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:03:24 AWSClient [12124] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:03:24 AWSClient [12124] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:03:24 WinHttpConnectionPoolMgr [12124] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:24 WinHttpConnectionPoolMgr [12124] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:30 WinHttpConnectionPoolMgr [11360] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:30 WinHttpConnectionPoolMgr [11360] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:41 WinHttpConnectionPoolMgr [6524] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:41 WinHttpConnectionPoolMgr [6524] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:47 WinHttpConnectionPoolMgr [11684] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:47 WinHttpConnectionPoolMgr [11684] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:53 WinHttpConnectionPoolMgr [14816] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:53 WinHttpConnectionPoolMgr [14816] Connection now available, continuing.
+[INFO] 2021-08-21 13:03:54 WinHttpConnectionPoolMgr [9020] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:03:54 WinHttpConnectionPoolMgr [9020] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:05 WinHttpConnectionPoolMgr [6620] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:05 WinHttpConnectionPoolMgr [6620] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:06 WinHttpConnectionPoolMgr [1156] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:06 WinHttpConnectionPoolMgr [1156] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:08 WinHttpConnectionPoolMgr [2296] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:08 WinHttpConnectionPoolMgr [2296] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:10 WinHttpConnectionPoolMgr [2596] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:10 WinHttpConnectionPoolMgr [2596] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:10 WinHttpConnectionPoolMgr [9160] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:10 WinHttpConnectionPoolMgr [9160] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:17 WinHttpConnectionPoolMgr [3376] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:17 WinHttpConnectionPoolMgr [3376] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:31 WinHttpConnectionPoolMgr [5888] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:31 WinHttpConnectionPoolMgr [5888] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:36 WinHttpConnectionPoolMgr [14720] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:36 WinHttpConnectionPoolMgr [14720] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:36 WinHttpConnectionPoolMgr [8716] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:36 WinHttpConnectionPoolMgr [8716] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:37 WinHttpConnectionPoolMgr [11884] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:37 WinHttpConnectionPoolMgr [11884] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [14348] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [14348] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [2812] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [2812] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [6376] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:39 WinHttpConnectionPoolMgr [6376] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:46 WinHttpConnectionPoolMgr [2160] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:46 WinHttpConnectionPoolMgr [2160] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:48 WinHttpConnectionPoolMgr [13564] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:48 WinHttpConnectionPoolMgr [13564] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:58 WinHttpConnectionPoolMgr [14324] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:58 WinHttpConnectionPoolMgr [14324] Connection now available, continuing.
+[INFO] 2021-08-21 13:04:58 WinHttpConnectionPoolMgr [4252] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:04:58 WinHttpConnectionPoolMgr [4252] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:12 WinHttpConnectionPoolMgr [5128] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:12 WinHttpConnectionPoolMgr [5128] Connection now available, continuing.
+[WARN] 2021-08-21 13:05:13 WinHttpSyncHttpClient [5128] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:05:13 AWSClient [5128] HTTP response code: 525332416
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:05:13 AWSClient [5128] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:05:13 AWSClient [5128] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:05:13 WinHttpConnectionPoolMgr [5128] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:13 WinHttpConnectionPoolMgr [5128] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:13 WinHttpConnectionPoolMgr [4192] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:13 WinHttpConnectionPoolMgr [4192] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:14 WinHttpConnectionPoolMgr [8640] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:14 WinHttpConnectionPoolMgr [8640] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:17 WinHttpConnectionPoolMgr [308] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:17 WinHttpConnectionPoolMgr [308] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:17 WinHttpConnectionPoolMgr [1332] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:17 WinHttpConnectionPoolMgr [1332] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:23 WinHttpConnectionPoolMgr [14660] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:23 WinHttpConnectionPoolMgr [14660] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:24 WinHttpConnectionPoolMgr [15204] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:24 WinHttpConnectionPoolMgr [15204] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:26 WinHttpConnectionPoolMgr [12456] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:26 WinHttpConnectionPoolMgr [12456] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:43 WinHttpConnectionPoolMgr [1668] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:43 WinHttpConnectionPoolMgr [1668] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:44 WinHttpConnectionPoolMgr [15188] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:44 WinHttpConnectionPoolMgr [15188] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:46 WinHttpConnectionPoolMgr [12844] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:46 WinHttpConnectionPoolMgr [12844] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:46 WinHttpConnectionPoolMgr [11896] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:46 WinHttpConnectionPoolMgr [11896] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:53 WinHttpConnectionPoolMgr [5432] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:53 WinHttpConnectionPoolMgr [5432] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:53 WinHttpConnectionPoolMgr [5528] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:53 WinHttpConnectionPoolMgr [5528] Connection now available, continuing.
+[INFO] 2021-08-21 13:05:58 WinHttpConnectionPoolMgr [7744] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:05:58 WinHttpConnectionPoolMgr [7744] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:07 WinHttpConnectionPoolMgr [5252] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:07 WinHttpConnectionPoolMgr [5252] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:10 WinHttpConnectionPoolMgr [4976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:10 WinHttpConnectionPoolMgr [4976] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:13 WinHttpConnectionPoolMgr [13816] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:13 WinHttpConnectionPoolMgr [13816] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:14 WinHttpConnectionPoolMgr [10756] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:14 WinHttpConnectionPoolMgr [10756] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:23 WinHttpConnectionPoolMgr [7936] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:23 WinHttpConnectionPoolMgr [7936] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:24 WinHttpConnectionPoolMgr [8736] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:24 WinHttpConnectionPoolMgr [8736] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:29 WinHttpConnectionPoolMgr [1512] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:29 WinHttpConnectionPoolMgr [1512] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:29 WinHttpConnectionPoolMgr [1560] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:29 WinHttpConnectionPoolMgr [1560] Connection now available, continuing.
+[WARN] 2021-08-21 13:06:30 WinHttpSyncHttpClient [1560] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:06:30 AWSClient [1560] HTTP response code: 504359072
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:06:30 AWSClient [1560] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:06:30 AWSClient [1560] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:06:30 WinHttpConnectionPoolMgr [1560] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:30 WinHttpConnectionPoolMgr [1560] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:42 WinHttpConnectionPoolMgr [13668] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:42 WinHttpConnectionPoolMgr [13668] Connection now available, continuing.
+[WARN] 2021-08-21 13:06:42 WinHttpSyncHttpClient [13668] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:06:42 AWSClient [13668] HTTP response code: 530573504
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:06:42 AWSClient [13668] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:06:42 AWSClient [13668] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:06:42 WinHttpConnectionPoolMgr [13668] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:42 WinHttpConnectionPoolMgr [13668] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [10972] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [10972] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [15168] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [15168] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [14748] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:48 WinHttpConnectionPoolMgr [14748] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14744] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14744] Connection now available, continuing.
+[WARN] 2021-08-21 13:06:49 WinHttpSyncHttpClient [14748] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:06:49 AWSClient [14748] HTTP response code: 525330864
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:06:49 AWSClient [14748] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:06:49 AWSClient [14748] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14748] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14748] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14456] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:49 WinHttpConnectionPoolMgr [14456] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:50 WinHttpConnectionPoolMgr [13796] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:50 WinHttpConnectionPoolMgr [13796] Connection now available, continuing.
+[INFO] 2021-08-21 13:06:54 WinHttpConnectionPoolMgr [4180] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:06:54 WinHttpConnectionPoolMgr [4180] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:06 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:06 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[WARN] 2021-08-21 13:07:06 WinHttpSyncHttpClient [13108] Send request failed: The server returned an invalid or unrecognized response
+
+[ERROR] 2021-08-21 13:07:06 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:06 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:06 AWSClient [13108] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:07:06 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:06 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:09 WinHttpConnectionPoolMgr [3288] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:09 WinHttpConnectionPoolMgr [3288] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:09 WinHttpConnectionPoolMgr [6404] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:09 WinHttpConnectionPoolMgr [6404] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:11 WinHttpConnectionPoolMgr [14900] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:11 WinHttpConnectionPoolMgr [14900] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:12 WinHttpConnectionPoolMgr [14756] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:12 WinHttpConnectionPoolMgr [14756] Connection now available, continuing.
+[ERROR] 2021-08-21 13:07:42 WinHttpSyncHttpClient [3288] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:42 AWSClient [3288] HTTP response code: 524283120
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:42 AWSClient [3288] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:42 AWSClient [3288] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:07:42 WinHttpConnectionPoolMgr [3288] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:42 WinHttpConnectionPoolMgr [3288] Connection now available, continuing.
+[ERROR] 2021-08-21 13:07:45 WinHttpSyncHttpClient [10972] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:45 AWSClient [10972] HTTP response code: 527427792
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[ERROR] 2021-08-21 13:07:45 WinHttpSyncHttpClient [6404] Response body length doesn't match the content-length header.
+[WARN] 2021-08-21 13:07:45 AWSClient [10972] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:45 AWSClient [10972] Request failed, now waiting 0 ms before attempting again.
+[ERROR] 2021-08-21 13:07:45 AWSClient [6404] HTTP response code: 509602896
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:45 AWSClient [6404] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:45 AWSClient [6404] Request failed, now waiting 0 ms before attempting again.
+[ERROR] 2021-08-21 13:07:45 WinHttpSyncHttpClient [4180] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:45 AWSClient [4180] HTTP response code: 503311200
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:45 AWSClient [4180] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:45 AWSClient [4180] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [10972] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [10972] Connection now available, continuing.
+[ERROR] 2021-08-21 13:07:45 WinHttpSyncHttpClient [14756] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:45 AWSClient [14756] HTTP response code: 504359584
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:45 AWSClient [14756] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:45 AWSClient [14756] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [4180] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [6404] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [4180] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [6404] Connection now available, continuing.
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [14756] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:45 WinHttpConnectionPoolMgr [14756] Connection now available, continuing.
+[ERROR] 2021-08-21 13:07:50 WinHttpSyncHttpClient [14456] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:50 AWSClient [14456] HTTP response code: 529525728
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:50 AWSClient [14456] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:50 AWSClient [14456] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:07:50 WinHttpConnectionPoolMgr [14456] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:50 WinHttpConnectionPoolMgr [14456] Connection now available, continuing.
+[ERROR] 2021-08-21 13:07:53 WinHttpSyncHttpClient [13108] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:53 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:53 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:53 AWSClient [13108] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[WARN] 2021-08-21 13:07:54 WinHttpSyncHttpClient [13108] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:07:54 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[WARN] 2021-08-21 13:07:54 WinHttpSyncHttpClient [13108] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:07:54 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] Request failed, now waiting 80 ms before attempting again.
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[WARN] 2021-08-21 13:07:54 WinHttpSyncHttpClient [13108] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:07:54 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] Request failed, now waiting 160 ms before attempting again.
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:54 WinHttpConnectionPoolMgr [13108] Connection now available, continuing.
+[WARN] 2021-08-21 13:07:54 WinHttpSyncHttpClient [13108] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:07:54 AWSClient [13108] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:54 AWSClient [13108] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:07:54 TransferManager [13108] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 507506672
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[ERROR] 2021-08-21 13:07:54 DownloadManagerAWS [13108]  ExecuteErrorCallback - errorCallback: Unable to connect to endpoint
+[INFO] 2021-08-21 13:07:54 Utils [13108]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 13:07:54 Utils [13108]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:07:54 Utils [13108]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:07:54 Utils [13108]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:07:54 Utils [13108]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[ERROR] 2021-08-21 13:07:58 WinHttpSyncHttpClient [14748] Response body length doesn't match the content-length header.
+[ERROR] 2021-08-21 13:07:58 AWSClient [14748] HTTP response code: 525330864
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:07:58 AWSClient [14748] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:07:58 AWSClient [14748] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:07:58 WinHttpConnectionPoolMgr [14748] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:07:58 WinHttpConnectionPoolMgr [14748] Connection now available, continuing.
+[INFO] 2021-08-21 13:08:00 TransferManager [9644] Transfer handle ID [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Updated handle status from [IN_PROGRESS] to [CANCELED].
+[INFO] 2021-08-21 13:08:01 WinHttpSyncHttpClient [10972] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:01 AWSClient [10972] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:01 AWSClient [10972] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:01 TransferManager [10972] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:01 DownloadManagerAWS [10972]  ExecuteErrorCallback - errorCallback: No response body.
+[INFO] 2021-08-21 13:08:01 WinHttpSyncHttpClient [14756] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:01 AWSClient [14756] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:01 AWSClient [14756] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:01 TransferManager [14756] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:01 DownloadManagerAWS [14756]  ExecuteErrorCallback - errorCallback: No response body.
+[ERROR] 2021-08-21 13:08:01 WinHttpSyncHttpClient [3288] Response body length doesn't match the content-length header.
+[INFO] 2021-08-21 13:08:01 WinHttpSyncHttpClient [3288] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:01 AWSClient [3288] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:01 AWSClient [3288] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:01 TransferManager [3288] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:01 DownloadManagerAWS [3288]  ExecuteErrorCallback - errorCallback: No response body.
+[ERROR] 2021-08-21 13:08:01 WinHttpSyncHttpClient [13668] Response body length doesn't match the content-length header.
+[INFO] 2021-08-21 13:08:02 WinHttpSyncHttpClient [13668] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:02 AWSClient [13668] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:02 AWSClient [13668] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:02 TransferManager [13668] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:02 DownloadManagerAWS [13668]  ExecuteErrorCallback - errorCallback: No response body.
+[INFO] 2021-08-21 13:08:02 WinHttpSyncHttpClient [14748] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:02 AWSClient [14748] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:02 AWSClient [14748] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:02 TransferManager [14748] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:02 DownloadManagerAWS [14748]  ExecuteErrorCallback - errorCallback: No response body.
+[ERROR] 2021-08-21 13:08:02 WinHttpSyncHttpClient [14900] Response body length doesn't match the content-length header.
+[INFO] 2021-08-21 13:08:02 WinHttpSyncHttpClient [14900] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:02 AWSClient [14900] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:02 AWSClient [14900] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:02 TransferManager [14900] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:02 DownloadManagerAWS [14900]  ExecuteErrorCallback - errorCallback: No response body.
+[INFO] 2021-08-21 13:08:03 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:03 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:03 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:03 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[ERROR] 2021-08-21 13:08:06 WinHttpSyncHttpClient [6404] Response body length doesn't match the content-length header.
+[INFO] 2021-08-21 13:08:06 WinHttpSyncHttpClient [6404] Request cancelled by client controller
+[INFO] 2021-08-21 13:08:06 WinHttpSyncHttpClient [14456] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:06 AWSClient [6404] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:06 AWSClient [6404] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:06 AWSClient [14456] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:06 AWSClient [14456] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:06 TransferManager [6404] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:06 DownloadManagerAWS [6404]  ExecuteErrorCallback - errorCallback: No response body.
+[ERROR] 2021-08-21 13:08:06 TransferManager [14456] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:06 DownloadManagerAWS [14456]  ExecuteErrorCallback - errorCallback: No response body.
+[ERROR] 2021-08-21 13:08:06 WinHttpSyncHttpClient [4180] Response body length doesn't match the content-length header.
+[INFO] 2021-08-21 13:08:06 WinHttpSyncHttpClient [4180] Request cancelled by client controller
+[ERROR] 2021-08-21 13:08:06 AWSClient [4180] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[WARN] 2021-08-21 13:08:06 AWSClient [4180] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:06 TransferManager [4180] Transfer handle [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Failed to download object in Bucket: [hp-pa] with Key: [M50652-D61.ISO] HTTP response code: 444
+Exception name: 
+Error message: No response body.
+0 response headers:
+[ERROR] 2021-08-21 13:08:06 DownloadManagerAWS [4180]  ExecuteErrorCallback - errorCallback: No response body.
+[INFO] 2021-08-21 13:08:06 TransferManager [4180] Transfer handle ID [9EB91B46-ADFC-41B1-AC0B-AD449A50B30A] Updated handle status from [CANCELED] to [CANCELED].
+[INFO] 2021-08-21 13:08:06 Aws_Init_Cleanup [14532] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 13:08:06 FileSystem [14532] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSProfileConfigLoader [14532] Failed to reload configuration.
+[DEBUG] 2021-08-21 13:08:06 AppLogicManager [14532]  DownloadFile - User abandons to retry network connection or retry times is over provision.
+[DEBUG] 2021-08-21 13:08:06 DownloadManagerAWS [14532]  DownloadObject - Initiating download of C:\Windows\Temp\DL_FAIL.FLG from [hp-pa, ap-southeast-1]
+[DEBUG] 2021-08-21 13:08:06 DownloadManagerAWS [14532]  DownloadObject - Download the object(Kibana//DL_FAIL.FLG) from cloud.
+[INFO] 2021-08-21 13:08:06 Aws_Init_Cleanup [14532] Initiate AWS SDK for C++ with Version:1.6.25
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 13:08:06 Aws::Config::AWSProfileConfigLoader [14532] Failed to reload configuration.
+[INFO] 2021-08-21 13:08:06 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:06 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] Request failed, now waiting 80 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] Request failed, now waiting 160 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [10468] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [10468] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [10468] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [10468] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:09 TransferManager [10468] Transfer handle [7410BD4C-35BD-4442-B728-AECFAF42CA73] Failed to get download parts information for object in Bucket: [hp-pa] with Key: [Kibana//DL_FAIL.FLG] HTTP response code: 515890592
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[INFO] 2021-08-21 13:08:09 TransferManager [10468] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [NOT_STARTED] to [FAILED].
+[ERROR] 2021-08-21 13:08:09 DownloadManagerAWS [10468]  ExecuteErrorCallback - errorCallback: Unable to connect to endpoint
+[INFO] 2021-08-21 13:08:09 TransferManager [14532] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [FAILED] to [NOT_STARTED].
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] Request failed, now waiting 80 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] Request failed, now waiting 160 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [12300] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [12300] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [12300] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [12300] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:09 TransferManager [12300] Transfer handle [7410BD4C-35BD-4442-B728-AECFAF42CA73] Failed to get download parts information for object in Bucket: [hp-pa] with Key: [Kibana//DL_FAIL.FLG] HTTP response code: 516940208
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[INFO] 2021-08-21 13:08:09 TransferManager [12300] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [NOT_STARTED] to [FAILED].
+[ERROR] 2021-08-21 13:08:09 DownloadManagerAWS [12300]  ExecuteErrorCallback - errorCallback: Unable to connect to endpoint
+[INFO] 2021-08-21 13:08:09 TransferManager [14532] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [FAILED] to [NOT_STARTED].
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:09 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:09 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:09 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:09 AWSClient [14976] Request failed, now waiting 80 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [14976] Request failed, now waiting 160 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [14976] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [14976] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [14976] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [14976] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [14976] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:10 TransferManager [14976] Transfer handle [7410BD4C-35BD-4442-B728-AECFAF42CA73] Failed to get download parts information for object in Bucket: [hp-pa] with Key: [Kibana//DL_FAIL.FLG] HTTP response code: 517987936
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[INFO] 2021-08-21 13:08:10 TransferManager [14976] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [NOT_STARTED] to [FAILED].
+[ERROR] 2021-08-21 13:08:10 DownloadManagerAWS [14976]  ExecuteErrorCallback - errorCallback: Unable to connect to endpoint
+[INFO] 2021-08-21 13:08:10 TransferManager [14532] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [FAILED] to [NOT_STARTED].
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] Request failed, now waiting 0 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] Request failed, now waiting 20 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] Request failed, now waiting 40 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] Request failed, now waiting 80 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] Request failed, now waiting 160 ms before attempting again.
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Attempting to aquire connection for hp-pa.s3.ap-southeast-1.amazonaws.com:443
+[INFO] 2021-08-21 13:08:10 WinHttpConnectionPoolMgr [15032] Connection now available, continuing.
+[WARN] 2021-08-21 13:08:10 WinHttpSyncHttpClient [15032] Send request failed: The server name or address could not be resolved
+
+[ERROR] 2021-08-21 13:08:10 AWSClient [15032] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[WARN] 2021-08-21 13:08:10 AWSClient [15032] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[ERROR] 2021-08-21 13:08:10 TransferManager [15032] Transfer handle [7410BD4C-35BD-4442-B728-AECFAF42CA73] Failed to get download parts information for object in Bucket: [hp-pa] with Key: [Kibana//DL_FAIL.FLG] HTTP response code: 519036736
+Exception name: 
+Error message: Unable to connect to endpoint
+0 response headers:
+[INFO] 2021-08-21 13:08:10 TransferManager [15032] Transfer handle ID [7410BD4C-35BD-4442-B728-AECFAF42CA73] Updated handle status from [NOT_STARTED] to [FAILED].
+[ERROR] 2021-08-21 13:08:10 DownloadManagerAWS [15032]  ExecuteErrorCallback - errorCallback: Unable to connect to endpoint
+[INFO] 2021-08-21 13:08:10 Aws_Init_Cleanup [14532] Initiate AWS SDK for C++ with Version:1.6.25
+[DEBUG] 2021-08-21 13:08:10 FileSystem [14532] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 13:08:10 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 13:08:10 Aws::Config::AWSConfigFileProfileConfigLoader [14532] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 13:08:10 Aws::Config::AWSProfileConfigLoader [14532] Failed to reload configuration.
+[DEBUG] 2021-08-21 13:08:10 KibanaFlagDownloader [14532]  DownloadSpecifiedFlag - Failed to download DL_FAIL.FLG
+[DEBUG] 2021-08-21 13:08:10 ErrorCodeProvider [14532]  FailedDownloadImage - 0xC00404 is that fail to download images.
+[DEBUG] 2021-08-21 13:08:10 AppLogicManager [14532]  DownloadFiles - User cancels to download M50652-D61.ISO. 
+[DEBUG] 2021-08-21 13:08:10 AppLogicManager [14532] <<< DownloadFiles - DownloadFiles return 0
+[INFO] 2021-08-21 13:08:16 PagePrepareUSB [15324]  OnBnClickedBtnNext - process completed successfully
+[INFO] 2021-08-21 13:08:16 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:16 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:19 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:19 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[INFO] 2021-08-21 13:08:19 Utils [236]  SetUILayout - Set layout for left to rigt.
+[INFO] 2021-08-21 13:08:19 Utils [15324]  IsHighContrastMode - This is Not high contrast mode.
+[INFO] 2021-08-21 13:08:19 Utils [15324]  GetTextScaleFactor - Succeeded to get property of TextScaleFactor from registry.
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] >>> GetSystemInformation
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info $HP$
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info LOC#ABA
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info BCU_Y
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info ABS 70/71 78 79 7A 7B
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info OemString5
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info HP_Mute_LED_P_G
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Feature Byte = 3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info FBYTE#3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t;
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info BUILDID#20WW1GMT601#SACJ#DACJ;
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info OemString9
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info OemString10
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  GetSystemInformation - Dump SMBIOS Info OemString11
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] >>> ParseFeatureByte
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] <<< ParseFeatureByte
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] >>> LogSystemInformation
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - Manufacturer = HP
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - ProductName = HP Laptop 15s-dr2xxx
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - Version = Type1ProductConfigId
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - SerialNumber = ** masked **
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - UUID = ** masked **
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - WakeupType = 06
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - SkuNumber = 172V0PA#ACJ
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - Family = 103C_5335KV HP Notebook
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - FeatureByte = 3K6b7K7P7W7zaBapaqarawbCbhcbd8dUdXdpdqfPhAhwjCm9n3n4.2t
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - BuildID = 20WW1GMT601
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogSystemInformation - HPCode = ACJ
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] >>> LogOsInformation
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogOsInformation - OS Family = OS_WINDOWS10
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogOsInformation - OS Edition = VOS_SL
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236]  LogOsInformation - OS Downgrade = DPK_W10
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] <<< LogOsInformation
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] <<< LogSystemInformation
+[DEBUG] 2021-08-21 13:08:19 HPSystemInformation [236] <<< GetSystemInformation
+[DEBUG] 2021-08-21 13:08:19 Utils [236]  GetDesktopPath - C:\Users\Krupali\OneDrive\Desktop
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  MergeLog - Make the memory buffer of log into the local log files.
+[INFO] 2021-08-21 13:08:19 Aws_Init_Cleanup [236] Initiate AWS SDK for C++ with Version:1.6.25
+[TRACE] 2021-08-21 13:08:19 FileSystem [236] Checking USERPROFILE for the home directory.
+[DEBUG] 2021-08-21 13:08:19 FileSystem [236] Environment value for variable USERPROFILE is C:\Users\Krupali
+[INFO] 2021-08-21 13:08:19 Aws::Config::AWSConfigFileProfileConfigLoader [236] Initializing config loader against fileName C:\Users\Krupali\\.aws\config and using profilePrefix = 1
+[INFO] 2021-08-21 13:08:19 Aws::Config::AWSConfigFileProfileConfigLoader [236] Unable to open config file C:\Users\Krupali\\.aws\config for reading.
+[INFO] 2021-08-21 13:08:19 Aws::Config::AWSProfileConfigLoader [236] Failed to reload configuration.
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  ListMergedLog - Succeeded to execute FindFile function by C:\ProgramData\HP\HP Cloud Recovery Tool\*.log.
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  ListMergedLog - Add the file(CND0267RWQ_HPcloudrecovery_2021-08-21-12.log) into vector for candidate of merging logs.
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  ListMergedLog - Add the file(CND0267RWQ_HPcloudrecovery_2021-08-21-13.log) into vector for candidate of merging logs.
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  ListMergedLog - No more file can be looped.
+[INFO] 2021-08-21 13:08:19 IntegrateLogManager [236]  MergeLog - Create the log file(C:\Users\Krupali\OneDrive\Desktop\2021-08-21_12-56-45_HPcloudrecovery_CND0267RWQ_6158A490-C611-4895-9063-496DCF004D76.log)
+[INFO] 2021-08-21 13:08:19 IntegrateLogManager [236]  MergeLog - Open the log file(C:\ProgramData\HP\HP Cloud Recovery Tool\CND0267RWQ_HPcloudrecovery_2021-08-21-12_CloudRecoveryBackup.log)
+[INFO] 2021-08-21 13:08:19 IntegrateLogManager [236]  MergeLog - Start to merge the log from this line([INFO] 2021-08-21 12:56:45 Aws_Init_Cleanup [15324] Initiate AWS SDK for C++ with Version:1.6.25)
+[DEBUG] 2021-08-21 13:08:19 IntegrateLogManager [236]  MergeLog - Make the memory buffer of log into the local log files.

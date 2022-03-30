@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int input_char;
+
+input_char=getchar();
+printf("%d",input_char);
+
+input_char=getchar();
+printf("%d",input_char);
+
+input_char=getchar();
+printf("%d",input_char);
+
+input_char=getchar();
+putchar(input_char);
+
+input_char=getchar();
+printf("%d",input_char);
+
+
+    return 0;
+}
+input:abcd
+output:979899d10

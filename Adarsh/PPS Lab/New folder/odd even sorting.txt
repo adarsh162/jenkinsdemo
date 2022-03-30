@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+void rotate_array(char str[], int n, int m)
+{
+    {   char str2[50]="\0";
+     char str4[50]="\0";
+      
+   int x=strlen(str);
+     
+     char str3[12]="\0";
+     char str5[12]="\0";
+     int i;
+     { for(i=0;i<x;i+=2)
+     { str3[i]=str[i];}
+    
+    for(i=0;i<n;i++)
+    {
+        str2[n-i-1]=str3[x-1-i];
+    }
+     
+   
+ strncat(str2,str3,x-1-n);
+ str2[x-1]=str3[x-1-n];
+ strcpy(str3,str2);}
+     {
+        for(i=1;i<x;i+=2)
+        { str5[i]=str[i];}
+         for(i=0;i<m;i++)
+    {
+        str4[m-i-1]=str5[x-1-i];
+    }
+     
+   
+ strncat(str4,str5,x-1-m);
+ str4[x-1]=str5[x-1-m];
+ strcpy(str5,str4);}
+     for(i=0;i<x;i++)
+     {if(str3[i]=='\0')
+     {str3[i]=str5[i];}
+     }
+     for(i=0;i<x;i++)
+         printf("%c",str3[i]);
+         
+        
+         
+     
+     
+     
+}
+}
+
+int main() {
+
+    int n,m;
+    char arr[50];
+    
+    scanf("%[^\n]",arr);
+    scanf("\n%d\n",& n);
+    scanf("%d\n",& m);
+    int x=strlen(arr);
+    rotate_array(arr,n,m);
+    
+    
+    
+    return 0;
+}

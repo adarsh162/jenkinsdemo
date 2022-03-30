@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+void sort(char **array,int size)
+{
+    char *temp;
+    char ch,min=*array[0];
+    int i,j,mini=0;
+    for(i=0;i<size-1;i++)
+    {  min=*array[i];
+       mini=i;
+        
+        for(j=i+1;j<size;j++)
+        {   if(*array[j]==min+32 || *array[j]==min-32)
+        {mini=j;}
+          else
+          {if(*array[j]< min)
+        {min=*array[j];
+          mini=j;}}
+        }
+     temp=array[i];
+     array[i]=array[mini];
+     array[mini]=temp;
+    }
+}
+
+int main() {
+
+   int i,n;
+    scanf("%d\n",& n);
+    char str[n][10];
+    char *arr[n];
+    for(i=0;i<n;i++)
+        scanf("%[^\n]\n",str[i]);
+    for(i=0;i<n;i++)
+        arr[i]=str[i];
+    sort(arr,n);
+    printf("%d\n", n);
+    for(i=0;i<n;i++)
+        printf("%s\n",arr[i]);
+    return 0;
+}

@@ -1,0 +1,136 @@
+#include <map>
+#include <set>
+#include <list>
+#include <cmath>
+#include <ctime>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <string>
+#include <bitset>
+#include <cstdio>
+#include <limits>
+#include <vector>
+#include <climits>
+#include <cstring>
+#include <cstdlib>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <unordered_map>
+using namespace std;
+class Node{
+    
+   int data;
+    Node *next;
+    int elements=10;
+    
+public:
+    Node *top=NULL;
+    
+    static int n;
+int push(int x){
+    if(n<=elements){
+   
+    Node *newn=(Node*)malloc(20);
+    newn->data=x;
+    newn->next=top;
+        top=newn;
+     n++;
+      
+     
+     return 1;
+        }
+    return 0;
+}
+
+int pop(){
+    if(top!=NULL){
+    
+    top=top->next;
+    
+    return 1;
+    
+    }
+    return 0;
+}
+int change(int index,int num){
+    int s=0;
+    Node *n1=top;
+    while(n1!=NULL)
+    {  n1=top->next;
+        s++;
+    }
+    if(index<s){
+        int i=1;
+        n1=top;
+        while(index!=i){
+            i++;
+            n1=n1->next;
+        }
+        n1->data=num;
+        return 1;
+    }
+        
+    return 0;
+}
+int display(){
+    Node *ptr=top;
+    if(ptr!=NULL){
+   while(ptr!=NULL){
+    cout<<ptr->data<<" ";
+       ptr=ptr->next;
+        
+    }
+        return 1;}
+    return 0;
+}
+};
+int Node::n=1;
+
+int main() {
+    Node s1;
+    int n=0;
+    do{
+    cin>>n;
+    if(n==1){
+        int x;
+        cin>>x;
+        if(!(s1.push(x)))
+        {cout<<"Stack Overflow";                
+            break;
+        }
+        
+     }
+     else if(n==2){
+          if(!(s1.pop()))
+          {cout<<"Stack Underflow";
+          break;
+          }
+     }
+     else if(n==3){
+            int num,index;
+            cin>>index>>num;
+            if(!(s1.change(index,num)))
+            {cout<<"Indexed item not present in stack";
+             break;
+            }
+     }
+        
+     
+      else if(n==4){
+         if(!(s1.display()))
+         {cout<<"Stack is empty";
+          break;}
+     }
+        else {
+         cout<<"Operation not supported";
+         break;
+     }
+        
+    }while(n!=4);
+    
+    return 0;
+}
